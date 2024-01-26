@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\maximilian.persson3\\OneDrive - Academedia\\Documents\\Programmering\\RestingBFace\\RestingBFace\\RestingBFace.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maximilian.persson3\\OneDrive - Academedia\\Documents\\Programmering\\RestingBFace\\RestingBFace\\RestingBFace.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maximilian.persson3\\OneDrive - Academedia\\Documents\\Programmering\\RestingBFace\\RestingBFace\\RestingBFace.csproj",
+        "projectName": "RestingBFace",
+        "projectPath": "C:\\Users\\maximilian.persson3\\OneDrive - Academedia\\Documents\\Programmering\\RestingBFace\\RestingBFace\\RestingBFace.csproj",
+        "packagesPath": "C:\\Users\\maximilian.persson3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maximilian.persson3\\OneDrive - Academedia\\Documents\\Programmering\\RestingBFace\\RestingBFace\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\maximilian.persson3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
