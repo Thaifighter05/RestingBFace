@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 
 RestClient client = new("https://swapi.py4e.com/api/");
-Console.WriteLine("Which Star Wars Character");
+Console.WriteLine("Which Star Wars Character?");
 
 string starWarsNumber = Console.ReadLine();
 RestRequest request = new($"people/{starWarsNumber}");
@@ -20,6 +20,6 @@ else
 {
     Console.WriteLine("ssss");
 }
-Console.WriteLine(response.Content);
-File.WriteAllText("StarWars.json", response.Content);
+
+// File.WriteAllText("StarWars.json", response.Content);
 Console.ReadLine();
